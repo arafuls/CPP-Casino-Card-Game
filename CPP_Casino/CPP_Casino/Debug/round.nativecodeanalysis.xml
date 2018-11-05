@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\austin\source\repos\cpp_casino\cpp_casino\</FILEPATH>
+      <FILENAME>round.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Round::{ctor}</FUNCTION>
+    <DECORATED>??0Round@@QAE@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\austin\source\repos\cpp_casino\cpp_casino\</FILEPATH>
+      <FILENAME>round.cpp</FILENAME>
+      <LINE>97</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26444</DEFECTCODE>
+    <DESCRIPTION>Avoid unnamed objects with custom construction and destruction (es.84).</DESCRIPTION>
+    <FUNCTION>Round::PlayRound</FUNCTION>
+    <DECORATED>?PlayRound@Round@@QAEXHAAPAVPlayer@@0AAH1@Z</DECORATED>
+    <FUNCLINE>37</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\austin\source\repos\cpp_casino\cpp_casino\</FILEPATH>
+      <FILENAME>round.cpp</FILENAME>
+      <LINE>205</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26444</DEFECTCODE>
+    <DESCRIPTION>Avoid unnamed objects with custom construction and destruction (es.84).</DESCRIPTION>
+    <FUNCTION>Round::ResumeRound</FUNCTION>
+    <DECORATED>?ResumeRound@Round@@QAEXHAAPAVPlayer@@0AAH1AAVTable@@AAVDeck@@@Z</DECORATED>
+    <FUNCLINE>166</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

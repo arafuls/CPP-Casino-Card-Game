@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\austin\source\repos\cpp_casino\cpp_casino\</FILEPATH>
+      <FILENAME>human.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Human::{ctor}</FUNCTION>
+    <DECORATED>??0Human@@QAE@XZ</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\austin\source\repos\cpp_casino\cpp_casino\</FILEPATH>
+      <FILENAME>human.cpp</FILENAME>
+      <LINE>184</LINE>
+      <COLUMN>36</COLUMN>
+    </SFA>
+    <DEFECTCODE>26444</DEFECTCODE>
+    <DESCRIPTION>Avoid unnamed objects with custom construction and destruction (es.84).</DESCRIPTION>
+    <FUNCTION>Human::SingleBuild</FUNCTION>
+    <DECORATED>?SingleBuild@Human@@QAE_NAAVTable@@@Z</DECORATED>
+    <FUNCLINE>135</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\austin\source\repos\cpp_casino\cpp_casino\</FILEPATH>
+      <FILENAME>human.cpp</FILENAME>
+      <LINE>262</LINE>
+      <COLUMN>36</COLUMN>
+    </SFA>
+    <DEFECTCODE>26444</DEFECTCODE>
+    <DESCRIPTION>Avoid unnamed objects with custom construction and destruction (es.84).</DESCRIPTION>
+    <FUNCTION>Human::MultiBuild</FUNCTION>
+    <DECORATED>?MultiBuild@Human@@QAE_NAAVTable@@@Z</DECORATED>
+    <FUNCLINE>198</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\austin\source\repos\cpp_casino\cpp_casino\</FILEPATH>
+      <FILENAME>human.cpp</FILENAME>
+      <LINE>401</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26444</DEFECTCODE>
+    <DESCRIPTION>Avoid unnamed objects with custom construction and destruction (es.84).</DESCRIPTION>
+    <FUNCTION>Human::Capture</FUNCTION>
+    <DECORATED>?Capture@Human@@QAE_NAAVTable@@@Z</DECORATED>
+    <FUNCLINE>276</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\austin\source\repos\cpp_casino\cpp_casino\</FILEPATH>
+      <FILENAME>human.cpp</FILENAME>
+      <LINE>337</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26444</DEFECTCODE>
+    <DESCRIPTION>Avoid unnamed objects with custom construction and destruction (es.84).</DESCRIPTION>
+    <FUNCTION>Human::Capture</FUNCTION>
+    <DECORATED>?Capture@Human@@QAE_NAAVTable@@@Z</DECORATED>
+    <FUNCLINE>276</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\austin\source\repos\cpp_casino\cpp_casino\</FILEPATH>
+      <FILENAME>human.cpp</FILENAME>
+      <LINE>443</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26444</DEFECTCODE>
+    <DESCRIPTION>Avoid unnamed objects with custom construction and destruction (es.84).</DESCRIPTION>
+    <FUNCTION>Human::Trail</FUNCTION>
+    <DECORATED>?Trail@Human@@QAE_NAAVTable@@@Z</DECORATED>
+    <FUNCLINE>421</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

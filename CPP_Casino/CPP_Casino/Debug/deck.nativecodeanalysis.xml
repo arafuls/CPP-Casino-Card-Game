@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\austin\source\repos\cpp_casino\cpp_casino\</FILEPATH>
+      <FILENAME>deck.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Deck::{ctor}</FUNCTION>
+    <DECORATED>??0Deck@@QAE@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\austin\source\repos\cpp_casino\cpp_casino\</FILEPATH>
+      <FILENAME>deck.cpp</FILENAME>
+      <LINE>86</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26444</DEFECTCODE>
+    <DESCRIPTION>Avoid unnamed objects with custom construction and destruction (es.84).</DESCRIPTION>
+    <FUNCTION>Deck::DealCards</FUNCTION>
+    <DECORATED>?DealCards@Deck@@QAEXAAPAVPlayer@@@Z</DECORATED>
+    <FUNCLINE>82</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\austin\source\repos\cpp_casino\cpp_casino\</FILEPATH>
+      <FILENAME>deck.cpp</FILENAME>
+      <LINE>102</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26444</DEFECTCODE>
+    <DESCRIPTION>Avoid unnamed objects with custom construction and destruction (es.84).</DESCRIPTION>
+    <FUNCTION>Deck::DealCards</FUNCTION>
+    <DECORATED>?DealCards@Deck@@QAEXAAVTable@@@Z</DECORATED>
+    <FUNCLINE>95</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\austin\source\repos\cpp_casino\cpp_casino\</FILEPATH>
+      <FILENAME>deck.cpp</FILENAME>
+      <LINE>114</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>6287</DEFECTCODE>
+    <DESCRIPTION>Redundant code:  the left and right sub-expressions are identical.</DESCRIPTION>
+    <FUNCTION>Deck::IsEmpty</FUNCTION>
+    <DECORATED>?IsEmpty@Deck@@QAE_NXZ</DECORATED>
+    <FUNCLINE>112</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

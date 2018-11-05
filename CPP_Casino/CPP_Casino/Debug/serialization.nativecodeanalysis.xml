@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\austin\source\repos\cpp_casino\cpp_casino\</FILEPATH>
+      <FILENAME>serialization.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Serialization::{ctor}</FUNCTION>
+    <DECORATED>??0Serialization@@QAE@XZ</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\austin\source\repos\cpp_casino\cpp_casino\</FILEPATH>
+      <FILENAME>serialization.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Serialization::sComputerScore' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Serialization::{ctor}</FUNCTION>
+    <DECORATED>??0Serialization@@QAE@XZ</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\austin\source\repos\cpp_casino\cpp_casino\</FILEPATH>
+      <FILENAME>serialization.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Serialization::sHumanScore' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Serialization::{ctor}</FUNCTION>
+    <DECORATED>??0Serialization@@QAE@XZ</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
